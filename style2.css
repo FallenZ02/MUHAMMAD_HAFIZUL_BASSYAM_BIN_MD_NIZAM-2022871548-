@@ -1,0 +1,134 @@
+body{
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('bground(1).jpg');
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h2{
+	color: e6a349;
+}
+
+li{
+	color: e6a349;
+}
+
+p{
+	color: e6a349;
+}
+
+a{
+	color: e6a349;
+}
+
+div.overlay{
+	color: e6a349;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+<style>
+table {
+    border-collapse: collapse;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+table[Attributes Style] {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    background-color: rgb(31, 31, 33);
+    width: 1000px;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: gray;
+    white-space: normal;
+    font-variant: normal;
+}
+body {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #pink;
+
+
+a {
+  color: #;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+}
+
+.button {
+  background-color: e6a349;
+  border: none;
+  color: 484a59;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: fff000; 
+  color: white;
+}
+</style>
+
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}

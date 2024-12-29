@@ -1,0 +1,148 @@
+body{
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('bground(1).jpg');
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h3{
+	color: e6a349;
+}
+
+li{
+	color: e6a349;
+}
+
+p{
+	color: e6a349;
+}
+
+p.ayat{
+	color: black;
+}
+
+a{
+	color: e6a349;
+}
+
+<style>
+
+table {
+    border-collapse: collapse;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+table[Attributes Style] {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    background-color: rgb(31, 31, 33);
+    width: 1000px;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: gray;
+    white-space: normal;
+    font-variant: normal;
+}
+
+
+
+a {
+  color: #;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+}
+
+#contact {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #333;
+}
+
+#contact p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.submit{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+	width: 100:
+}
+
+.button {
+  background-color: e6a349;
+  border: none;
+  color: 484a59;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: fff000; 
+  color: white;
+
+</styles>
